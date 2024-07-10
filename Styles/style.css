@@ -196,5 +196,8 @@ header .container {
     border-radius: 16px;
 }
 
-
+.ispiration-container .youTubeVideo iframe {
+    width: 1076px;
+    height: 550px;
+}
 

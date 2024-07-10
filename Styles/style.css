@@ -201,3 +201,79 @@ header .container {
     height: 550px;
 }
 
+/* Target Section Starts here */
+
+.target-container {
+    width: 1140px;
+    height: 460px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.target-container .textarea {
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.target-container .textarea h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.target-container .textarea p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.target-container .card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-container .card-container .card {
+    padding: 30px;
+    width: 364px;
+    height: 299px;
+}
+
+.target-container .card-container .card img {
+    margin-bottom: 25px;
+}
+
+.target-container .card-container .card h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.target-container .card-container .card p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    opacity: 0.7;
+}
+
+.target-container .card-container .card a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+.target-container .card-container .card-1 {
+    background-color:#FF4C1E0D;
+}
+
+.target-container .card-container .card-2 {
+    background-color: #004CE80D;
+}
+
+.target-container .card-container .card-3 {
+    background-color: #FFDF000D;
+}
+

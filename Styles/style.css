@@ -289,6 +289,7 @@ header .container {
     background-repeat: no-repeat; 
     background-color: rgba(0, 0 ,0 , 0.5);
     background-blend-mode: overlay;
+    border-radius: 5px;
 }
 
 .support-container .text-form {
@@ -337,11 +338,15 @@ header .container {
     width: 120px;
     height: 57px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
     color: #3b4150;
     border-radius: 5px;
     margin-left: 20px;
 }
+
+input:focus {
+    outline: none; /* Remove the default focus outline */
+  }
 
 /* input[type="text"] {
     height: 64px;
